@@ -16,7 +16,7 @@ A dataframe containing each annotation on a separate column
 Separates the SNPeff annotations found in an annotated and rearranged VCF dataframe (arranged using arrange_data)
 }
 \examples{
-# Example 1: Shows the separation of the ANN column based on | delimiter.
+# Example: Shows the separation of the ANN column based on | delimiter.
 test <- data.frame( ANN = c("A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P"))
 
 # The ANN column will be split based on the strings in `snpeff_info()` and
